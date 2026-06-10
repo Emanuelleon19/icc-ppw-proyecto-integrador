@@ -1,13 +1,15 @@
 export interface Programmer {
-  id: number;
-  name: string;
-  specialty: string;
-  shortDescription: string;
-  fullDescription: string;
-  photo: { url: string };
-  email: string;
-  github: string;
-  linkedin: string;
-  active: boolean;
-  slug: string;
+  id: number;              // ID único
+  name: string;            // Nombre completo
+  specialty: string;       // Especialidad laboral
+  shortDescription: string;// Descripción corta
+  fullDescription: string; // Descripción larga
+  photo: { 
+    url: string;           // URL de la foto (Strapi)
+  };
+  email: string;           // Correo electrónico
+  github: string;          // Enlace a GitHub
+  linkedin: string;        // Enlace a LinkedIn
+  active: boolean;         // Estado activo/inactivo
+  slug: string;            // URL amigable
 }

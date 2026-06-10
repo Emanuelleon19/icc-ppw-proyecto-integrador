@@ -2,6 +2,7 @@ import { Programmer } from './programmer.model';
 
 export type ProjectType = 'academico' | 'personal' | 'laboral' | 'simulado';
 
+/** Estructura de datos para la gestión y tipado de proyectos en el portafolio */
 export interface Project {
   id: number;
   name: string;

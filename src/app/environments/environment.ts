@@ -1,3 +1,4 @@
+/** Configuración de variables de entorno para el entorno de desarrollo local */
 export const environment = {
   production: true,
   strapiUrl: 'http://localhost:1337/api',
@@ -6,8 +7,8 @@ export const environment = {
     'tzuritaa@est.ups.edu.ec',
   ],
   programmerSlugs: [
-    'emanuel',  
-    'sebastian', 
+    'emanuel-leon',  
+    'sebastian-zurita', 
   ],
   firebaseConfig: {
     apiKey: "AIzaSyAGnpuiZScXNk95cevP7NdmqxUxNwGLKtE",
